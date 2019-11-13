@@ -16,8 +16,8 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: ${{ matrix.node-version }}
+    - uses: faisalt/actions-testing
     - name: npm install, build, and test
-      uses: faisalt/actions-testing
       run: |
         npm ci
         npm run build --if-present
