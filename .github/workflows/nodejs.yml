@@ -12,7 +12,7 @@ jobs:
         node-version: [8.x]
 
     steps:
-    - uses: faisalt/actions-testing
+    - uses: faisalt/actions-testing@v1
     - name: Use Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v1
       with:
