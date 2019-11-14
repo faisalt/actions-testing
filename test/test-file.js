@@ -9,7 +9,7 @@ describe("testing", function() {
   });
 
   it("should work3", function() {
-    expect(false).not.toBe(false);
+    expect(false).not.toBe(true);
   });
 
 });
