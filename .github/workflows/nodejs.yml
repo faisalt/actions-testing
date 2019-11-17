@@ -34,7 +34,7 @@ jobs:
     - uses: actions/checkout@v1
       
     - name: build the Docker image
-      run: docker build . --file Dockerfile --tag actions-test:test
+      run: docker build . --file Dockerfile --tag actions-test
       
     - name: log into registry
       run: echo "${{ secrets.GITHUB_TOKEN }}" | docker login docker.pkg.github.com -u ${{ github.actor }} --password-stdin
