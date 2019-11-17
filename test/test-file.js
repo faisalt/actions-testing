@@ -8,4 +8,9 @@ describe("testing", function() {
     expect(false).toBe(false);
   });
 
+  it("should work3", function() {
+    expect(false).not.toBe(true);
+    expect(1).not.toBe(2);
+  });
+
 });
