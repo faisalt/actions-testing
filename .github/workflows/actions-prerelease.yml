@@ -2,7 +2,7 @@ name: Node CI
 
 on:
   release:
-    type: [published]
+    types: [published]
 
 env:
   IMAGE_NAME: actions-test
