@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/faisalt/actions-testing#readme",
   "devDependencies": {
-    "karma": "^4.0.0",
+    "karma": "^6.4.1",
     "karma-chrome-launcher": "^2.2.0",
     "karma-fixture": "^0.2.6",
     "karma-html2js-preprocessor": "^1.1.0",
